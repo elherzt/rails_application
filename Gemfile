@@ -25,7 +25,9 @@ gem 'haml'
 
 gem 'pg'
 
-gem 'rspec'
+group :test, :development do
+gem 'rspec-rails'
+end
 
 group :test do
 gem 'capybara', "2.0.2"
