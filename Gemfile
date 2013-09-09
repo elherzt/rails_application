@@ -23,8 +23,13 @@ gem 'jquery-rails'
 
 gem 'haml'
 
+gem 'pg'
+
 gem 'rspec'
 
+group :test do
+gem 'capybara', "2.0.2"
+end
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
